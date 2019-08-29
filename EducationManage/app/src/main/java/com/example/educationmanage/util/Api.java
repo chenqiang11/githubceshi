@@ -22,7 +22,7 @@ import okhttp3.Response;
 import com.kaopiz.kprogresshud.KProgressHUD;
 public class Api {
 
-   // public static final String base_url = "http://192.168.1.150:8989/Interface/";
+ //  public static final String base_url = "http://192.168.1.150:8989/Interface/";
    public static final String base_url = "http://192.168.1.180:7777/";
    // public static final String base_url = "http://sf136540136.gnway.cc:8989/Interface/";
     //外网
