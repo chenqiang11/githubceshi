@@ -26,8 +26,8 @@ public class BaseActivity extends AppCompatActivity {
             actionBar.hide();
         }
         getWindow().setSoftInputMode( WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-        Log.d("dd","");
-        Log.d("dd","");
+
+        Log.d("dsfsfd","水电费水电费");
     }
     /**
      * 点击空白区域隐藏键盘.
