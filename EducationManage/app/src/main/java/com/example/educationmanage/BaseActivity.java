@@ -26,7 +26,7 @@ public class BaseActivity extends AppCompatActivity {
             actionBar.hide();
         }
         getWindow().setSoftInputMode( WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-        Log.d("dd","");
+        
     }
     /**
      * 点击空白区域隐藏键盘.
