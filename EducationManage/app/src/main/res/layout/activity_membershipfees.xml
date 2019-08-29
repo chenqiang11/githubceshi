@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/colornav"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:id="@+id/mumberlist"
+
+            android:textSize="20dp"
+            android:textColor="@color/colortabbartextcolor"
+            android:text="会员缴费"
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="会员名字:"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/membersshipfees_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="课程名字:"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/membersshipfees_classname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="缴费时间:"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/membersshipfees_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="缴费金额:"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/membersshipfees_money"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="缴费课时:"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/membersshipfees_hour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="备注:"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/membersshipfees_remark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/membershipfees_addbtn"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/colortabbartextcolor"
+        android:background="@color/colortabbarbackgruod"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="提交"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/colornav"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <View
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></View>
+         <TextView
+             android:id="@+id/mumberlist"
+             android:layout_gravity="center_vertical"
+             android:textSize="20dp"
+             android:textColor="@color/colortabbartextcolor"
+             android:text="会员列表"
+             android:layout_marginRight="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="会员名字:"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/add_mumbername"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="出生日期:"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/add_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="所属门店:"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/add_shop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="备注:"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/add_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/add_addbtn"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/colortabbartextcolor"
+        android:background="@color/colortabbarbackgruod"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="提交"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
