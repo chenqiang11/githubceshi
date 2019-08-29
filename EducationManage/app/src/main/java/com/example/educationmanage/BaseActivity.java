@@ -28,7 +28,7 @@ public class BaseActivity extends AppCompatActivity {
         getWindow().setSoftInputMode( WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
 
-        Log.d("dsfsfd","水电费水电费");
+      
 
     }
     /**
